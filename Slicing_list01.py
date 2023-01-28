@@ -6,6 +6,6 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    s=numbers[0:-1:2]
+    s=numbers[0::2]
     return s
 print(main([1,2,3,4,5,6,7]))
